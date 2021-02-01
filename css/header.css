@@ -3,94 +3,109 @@
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    background-color: black;
     padding-left: 9%;
     padding-right: 9%;
     padding-top: 3px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right, black, 70%, transparent);
 }
 
-
-}
 .logo img {
     width: 130px;
 }
+
 .nav {
     display: flex;
+    align-items: center;
 }
+
 .nav a {
     margin-left: 32px;
 }
+
 .nav_link:hover {
-    color: red;
+    color: #ed421c;
     transition: color .1s linear;
 }
+
 .links {
     margin-left: 10px;
 }
+
 .links>a {
     font-size: smaller;
     color: white;
 }
+
 *:after {
     box-sizing: border-box
 }
+
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 800px;
-    background-color: black;
+    height: 100vh;
     background-size: cover;
-    background-image: url(https://thumbs.dreamstime.com/b/oysters-ice-lemon-black-stone-background-seafood-top-view-free-copy-space-151170855.jpg);
+    background-image: url(../images/bg01.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
+
 .intro_title {
     color: white;
     font-size: 100px;
     text-transform: uppercase;
     /* text-align: left; */
-    
     font-family: 'Bebas Neue', cursive;
     /* padding-top: 25px; */
-    
     font-size: 130px;
     font-style: normal;
 }
+
 .color1 {
-    color: red;
+    color: #ed421c;
     font-family: 'Bebas Neue', cursive;
 }
+
 .intro_suptitle {
     color: white;
     font-size: 60px;
     /* padding-top: 220px; */
-    
     font-family: 'Bebas Neue', cursive;
 }
+
 .intro_sub {
     color: white;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
 }
+
 .button {
     display: inline-block;
     vertical-align: top;
-    border: 2px solid red;
+    border: 2px solid #ed421c;
     padding: 15px 50px;
     color: #ffffff;
-    background-color: red;
+    background-color: #ed421c;
     margin-top: 50px;
 }
+
 .button:hover {
     opacity: 0.8;
     transition: .2s linear;
 }
+
 .call-me {
     width: 80px;
     height: 80px;
@@ -103,19 +118,24 @@
     justify-content: center;
     align-items: center;
 }
+
 .call-me img {
     width: 50%;
     height: 50%;
 }
+
 .call-me img:hover {
     opacity: 0.6;
     transition: .1s linear;
 }
 
+
 /* Section */
+
 .section {
     padding: 80px 0;
 }
+
 .section_header {
     width: 100%;
     max-width: 950px;
@@ -123,47 +143,60 @@
     margin-top: 30px;
     text-align: left;
 }
+
 .section_suptitle {
     font-size: 45px;
-    color: red;
+    color: #ed421c;
     font-family: 'Bebas Neue', cursive;
 }
+
 .section_title {
     font-size: 60px;
     color: black;
     font-family: 'Bebas Neue', cursive;
 }
+
 .section_title1 {
     font-size: 60px;
     color: black;
     font-family: 'Bebas Neue', cursive;
 }
+
 .image {
     background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-title-img.png);
     background-repeat: no-repeat;
     margin: 5px auto;
 }
+
 .section_text {
     size: 70px;
-    color: black;
+    color: #434f53;
     text-align: left;
+    font-size: 17px;
+    line-height: 1.42857143;
 }
+
 .section {
     width: 100%;
-    background-image: url(https://sun9-14.userapi.com/impf/V9TqxL81vc7ob2XE4VJmCK9Wlv_IArvLg7hf7Q/kwxUcDr1C6g.jpg?size=1024x768&quality=96&proxy=1&sign=d4d9040be2d66342561bdaff4f8e551d&type=album);
+    background-image: url(../images/bg02.png);
     background-repeat: no-repeat;
     background-size: contain;
+    justify-content: center;
+    flex-direction: column;
 }
+
 .box {
     width: 350px;
     height: 350px;
     background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-img01.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    right: 20%;
-    top: 139%;
-    position: absolute;
+    background-position: left bottom;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
 }
+
 .box1 {
     width: 330px;
     height: 330px;
